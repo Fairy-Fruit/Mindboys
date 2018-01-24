@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/c++,macos,eclipse,windows,sublimetext,unrealengine,visualstudio,visualstudiocode
+# Created by https://www.gitignore.io/api/c++,macos,eclipse,windows,sublimetext,unrealengine,visualstudio,visualstudiocode,xcode
 
 ### C++ ###
 # Prerequisites
@@ -244,6 +244,38 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+### Xcode ###
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
 
 ### VisualStudio ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -534,4 +566,4 @@ __pycache__/
 # should be stored in the .pubxml.user file.
 
 
-# End of https://www.gitignore.io/api/c++,macos,eclipse,windows,sublimetext,unrealengine,visualstudio,visualstudiocode
+# End of https://www.gitignore.io/api/c++,macos,eclipse,windows,sublimetext,unrealengine,visualstudio,visualstudiocode,xcode
